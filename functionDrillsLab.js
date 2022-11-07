@@ -228,6 +228,13 @@ printAllNames(namesArr)
 
 //CODE HERE
 
+function thatsOdd(number){
+  if (number % 2 == 0){
+    console.log("That's not odd!")
+  }else {
+
+  }
+}
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -266,6 +273,17 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
+function theEliminator(contestants,loser){
+  for(let i = 0; i < contestants.length; i++){
+    if(contestants[i] === loser){
+      contestants.splice(i,1)
+      i--
+    }
+  }
+  return console.log(contestants)
+}
+
+theEliminator(contestants,loser)
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."

@@ -232,9 +232,12 @@ function thatsOdd(number){
   if (number % 2 == 0){
     console.log("That's not odd!")
   }else {
-
+    console.log("That is odd indeed!")
   }
 }
+
+let oddChecker = thatsOdd(15)
+console.log(oddChecker)
 
 ////////////////// PROBLEM 14 ////////////////////
 
